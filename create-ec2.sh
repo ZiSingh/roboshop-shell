@@ -6,7 +6,7 @@ if [ -z "$1" ]; then
 fi
 
 COMPONENT=$1
-ZONE_ID="Z07127591KNL4Z8ZE2THK"
+//ZONE_ID="Z07127591KNL4Z8ZE2THK"
 
 create_ec2() {
   PRIVATE_IP=$(aws ec2 run-instances \
